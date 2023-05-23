@@ -6,7 +6,7 @@ function getCookieValue() {
     .reduce(
       (accumulator, [key, value]) => ({
         ...accumulator,
-        [key.trim()]: decodeURIComponent(value)
+        [key.trim()]: decodeURIComponent(value),
       }),
       {}
     );
@@ -29,11 +29,8 @@ function getCookieValue() {
   if (pageURLForm) {
     pageURLForm.value = pageURL;
   }
+
+  setTimeout(getCookieValue, 1000);
 }
 
-window.addEventListener("load", function () {
-  setTimeout(function () {
-    getCookieValue();
-  }, 1000);
-});
-
+window.addEventListener("load", getCookieValue);
