@@ -36,3 +36,4 @@ window.addEventListener("load", function () {
     getCookieValue();
   }, 1000);
 });
+
