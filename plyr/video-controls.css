@@ -1,0 +1,12 @@
+html {
+  --plyr-color-main: #e5ff42;
+  --plyr-video-control-color: white;
+
+  --plyr-video-control-color-hover: black;
+}
+
+.plyr {
+  width: 100%;
+  height: 100%;
+  z-index: 102;
+}
