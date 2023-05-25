@@ -104,7 +104,7 @@ programTl.to(sectionContainer, {
 // Countdown Timer
 (function () {
 
-    var deadline = '2022/03/15 14:00';
+    var deadline = '2023/05/30 10:00';
 
     function pad(num, size) {
         var s = "0" + num;
