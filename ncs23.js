@@ -97,5 +97,3 @@ programTl.to(sectionContainer, {
   paddingLeft: 0,
   paddingRight: 0
 });
-
-console.log("hello world");
