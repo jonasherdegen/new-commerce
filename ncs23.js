@@ -9,6 +9,7 @@ $(".ncs23-speaker-info-trig").each(function () {
       duration: 0.6,
       ease: "ease"
     });
+    $('.ncs23-speaker-list').masonry('layout');
     $(this).attr("data-lenis-prevent", "");
   });
 });
@@ -20,6 +21,7 @@ $(".ncs23-speaker-item-contain").each(function () {
       duration: 0.6,
       ease: "ease"
     });
+    $('.ncs23-speaker-list').masonry('layout');
     $(this).removeAttr("data-lenis-prevent");
   });
 });
